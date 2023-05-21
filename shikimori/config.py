@@ -20,13 +20,13 @@ class Config(object):
     SUPPORT_CHAT = "Enmu_chat_Support"  # Your own group for support, do not add the @
     BOT_USERNAME = "@shikimori_noobbot"
     JOIN_LOGGER = (
-        -1001774850421
+        -1504590700
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001774850421
+        -1504590700
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     ERROR_LOGS = (
-        -1001711427851
+        -1504590700
     )  # Prints information Error
     REDIS_URL = "redis://default:cdgiOMJGyZsqx97p5S7S@containers-us-west-27.railway.app:6644"
     MONGO_DB_URI = "mongodb+srv://enmu:enmu123@enmu.2cuev.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
