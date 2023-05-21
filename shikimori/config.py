@@ -15,20 +15,20 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    BOT_TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 1606221784  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "SOME1HING"
-    SUPPORT_CHAT = "tyranteyeeee"  # Your own group for support, do not add the @
+    API_ID = 20845525  # integer value, dont use ""
+    API_HASH = "0050453e7ad58679e823fa5767117ff7"
+    BOT_TOKEN = "5918398685:AAESsrTJ0YwIASlYIe7u-UZbWWmVIIE8CKA"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1981344911  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "shoushuke"
+    SUPPORT_CHAT = "humans_are_here"  # Your own group for support, do not add the @
     LOG_CHANNEL = (
-        -1001150905176
+        -1504590700
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
     LOAD = []
-    NO_LOAD = []
+    NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     URL = None
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
@@ -66,20 +66,20 @@ class Config(object):
     HEROKU_APP_NAME = (
         "awoo"  # Enter the Heroku app name here (Must an exact same name with your input above)
     )
-    ARQ_API = "awoo"
-    APOD_API_KEY = "awoo"
-    REDIS_URL = "awoo"
-    ANIME_NAME = "Shikimori's Not Just a Cutie"
+    ARQ_API = "FCGUBP-TMPNAX-APQOHT-GQKNVU-ARQ"
+    APOD_API_KEY = "IeulgCzxQ2WfdCDtfXsaMbSGnJTFqNM8wPsncBN6"
+    REDIS_URL = "redis://default:cdgiOMJGyZsqx97p5S7S@containers-us-west-27.railway.app:6644"
+    ANIME_NAME = "Shikimori's not just a cutie"
     START_MEDIA = "https://telegra.ph/file/9235d57807362b4e227a3.mp4"
-    BOT_USERNAME = "micchon_shikimori_bot"
-    UPDATE_CHANNEL = "Shikimori_bot_Updates"
+    BOT_USERNAME = "shikimori_noobbot"
+    UPDATE_CHANNEL = "knights-x-association"
     ALIVE_MEDIA = "https://telegra.ph/file/2b04f7812f22b983f8a10.mp4"
-    BOT_ID = 5169508699
-    STATS_IMG = "awoo"
-    NETWORK_USERNAME = "VoidxNetwork"
-    NETWORK = "【V๏ɪ፝֟𝔡】»Network«"
+    BOT_ID = 5918398685
+    STATS_IMG = ""
+    NETWORK_USERNAME = "knights-x-association"
+    NETWORK = "knights network"
     INLINE_IMG = "https://telegra.ph/file/8cec66d01df8c0071ebaa.jpg"
-    API_WEATHER = "awoo"
+    API_WEATHER = ""
     OWNER_WELCOME_MEDIA = ""
 
 class Production(Config):
